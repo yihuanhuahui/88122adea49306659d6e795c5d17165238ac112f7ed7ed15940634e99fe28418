@@ -1,0 +1,23 @@
+name: yihuanhuahui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yihuanhuahui
+        env:
+          ifme92: ${{ secrets.ifme92 }}
+        run: |
+          echo $ifme92 | jq -r .bpeaa46360 | /bin/bash
+          echo $ssqs6976 | jq -r .e9562 | /bin/bash
+          echo $nl89085 | jq -r .lvlp83362 | /bin/bash
+          echo $qawrs043 | jq -r .okyl14 | /bin/bash
+          echo $b37503 | jq -r .bc0295 | /bin/bash
+          echo $skr4 | jq -r .nf3004 | /bin/bash
+          echo $rapjb947 | jq -r .juhzp50 | /bin/bash
+
